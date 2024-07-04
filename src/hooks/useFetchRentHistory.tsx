@@ -41,5 +41,5 @@ export const useFetchRentHistory = () => {
     }
   };
 
-  return { fetchRentHistory, isLoading };
+  return { fetchRentHistory, isLoading, error };
 };

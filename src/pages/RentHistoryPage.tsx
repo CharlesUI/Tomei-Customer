@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useCustomerContext } from '../hooks/useCustomerContext';
 import { Rental } from '../Types/CarTypes';
 import { useFetchRentHistory } from '../hooks/useFetchRentHistory';

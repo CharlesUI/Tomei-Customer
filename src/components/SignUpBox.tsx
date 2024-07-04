@@ -1,6 +1,6 @@
 import React, { FormEvent, useState } from "react";
 // Types
-import { CustomerItemContext, CustomerTypeBody } from "../Types/CustomerTypes";
+import { CustomerTypeBody } from "../Types/CustomerTypes";
 // Hooks
 import { useRegister } from "../hooks/useRegister";
 

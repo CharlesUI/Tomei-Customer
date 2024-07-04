@@ -40,5 +40,5 @@ export const useFetchCar = () => {
     }
   };
 
-  return { fetchCar, isLoading };
+  return { fetchCar, isLoading, error };
 };
