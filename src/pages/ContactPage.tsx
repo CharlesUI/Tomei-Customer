@@ -38,8 +38,6 @@ const ContactPage: React.FC = () => {
       body: JSON.stringify(formData),
     });
 
-    const json = await response.json();
-
     if (!response.ok) {
       console.log("SOMETHING WENT WRONG")
     }
