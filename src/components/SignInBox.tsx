@@ -19,7 +19,6 @@ const SignInBox = ({setShowSignIn, setShowSignUp}: SignType) => {
     password: "",
   });
 
-  console.log(formData)
   const toggleInput = (event: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
 
